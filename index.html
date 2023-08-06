@@ -13,7 +13,9 @@
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="vendor/aos/aos.css" rel="stylesheet">
@@ -28,14 +30,19 @@
 </head>
 
 <body>
-    <header id="header" class="d-flex flex-column justify-content-center">
+    <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
 
+    <header id="header" class="d-flex flex-column justify-content-center">
         <nav id="navbar" class="navbar nav-menu">
             <ul>
-                <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-                <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Project(s)</span></a></li>
-                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+                <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+                </li>
+                <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Project(s)</span></a>
+                </li>
+                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+                </li>
+                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
+                </li>
             </ul>
         </nav><!-- .nav-menu -->
 
@@ -47,8 +54,10 @@
             <p>I'm <span class="typed" data-typed-items=".NET Developer"></span></p>
             <div class="social-links">
                 <!-- <a href="https://twitter.com/Lakhey43135664" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-                <a href="https://www.facebook.com/razzesh.kasula.3/" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.linkedin.com/in/rajesh-kasula-117a1019a/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.facebook.com/razzesh.kasula.3/" target="_blank" class="facebook"><i
+                        class="bx bxl-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/rajesh-kasula-117a1019a/" target="_blank" class="linkedin"><i
+                        class="bx bxl-linkedin"></i></a>
             </div>
         </div>
     </section><!-- End Hero -->
@@ -61,24 +70,65 @@
 
                 <div class="section-title">
                     <h2>Project(s)</h2>
-                    <p>These are the projects that I have worked on / currently working on.</p>
+                    <p>These are the projects that I have worked when on previous company.</p>
                 </div>
 
                 <div class="row">
                     <div class="col-lg-12 pt-4 pt-lg-0 content">
                         <p class="fst-italic">
-                            I am a .Net Developer with one and half years of experience on it. I have worked on multiple projects using .NET framework and .NET core. 
-                            Mostly I worked on backends for the both project. Developing APIs for a calculator and policy issuing for products such as Vehicle, Travel Medical, Health.
+                            I am a .Net Developer with one and half years of experience on it. I have worked on multiple
+                            projects using .NET framework and .NET core.
+                            Mostly I worked on backends for the both project. Developing APIs for a calculator and
+                            policy issuing for products such as Vehicle, Travel Medical, Health.
                         </p>
                         <div class="row">
                             <ul>
-                                <li><i class="bi bi-chevron-right"></i> <strong><a href="https://ebeema.com/about">E-Beema</a></strong></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong><a href="http://103.90.87.117:1000/">General Insurance</a></strong></li>
+                                <li>
+                                    <i class="bi bi-chevron-right"></i> <strong><a href="#abtIEnsure"
+                                            data-bs-toggle="collapse">IEnsure</a></strong>
+                                </li>
+                                <div class="row ps-3">
+                                    <div class="collapse" id="abtIEnsure">
+                                        <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item">Worked on WebForms to create various action
+                                                forms.</li>
+                                            <li class="list-group-item">Worked on ADO.NET to perform various sql
+                                                operations with query and stored procedures.</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <li>
+                                    <i class="bi bi-chevron-right"></i> <strong><a href="#abtEbeema"
+                                            data-bs-toggle="collapse">E-Beema</a></strong><a target="_blank"
+                                        href="https://ebeema.com/about"><span
+                                            style="color: grey; font-size: small;">(View Page)</span></a>
+                                </li>
+                                <div class="row ps-3">
+                                    <div class="collapse" id="abtEbeema">
+                                        <ol class="list-group list-group-flush list-group-numbered">
+                                            <li class="list-group-item">Worked on backend/API that helps user to issue
+                                                policy for selected products.</li>
+                                            <li class="list-group-item">Worked on complex calculator that calculates
+                                                premium of Vehicle and TMI insurance.</li>
+                                            <li class="list-group-item">Worked on developing KYC API including
+                                                individual and corporate.</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i> <strong><a href="#abtEbeema"
+                                                data-bs-toggle="collapse">General Insurance</a></strong><a target="_blank"
+                                            href="http://103.90.87.117:1000/"><span
+                                                style="color: grey; font-size: small;">(View Page)</span></a>
+                                    </li>
                             </ul>
                         </div>
+                        <p class="fst-italic">
+                            I am also currently working on a individual projects as a practice. You can check it out on my github page.
+                            <span><a href="https://github.com/Kasula00?tab=repositories" target="_blank">go to github page</a></span>
+                        </p>
                     </div>
                 </div>
-
             </div>
         </section><!-- End About Section -->
         <!-- ======= Skills Section ======= -->
@@ -150,7 +200,8 @@
                         <h3 class="resume-title">Summary</h3>
                         <div class="resume-item pb-0">
                             <h4>Rajesh Kasula</h4>
-                            <p><em>Passionate Individual/.NET Developer with 1+ years of experience working with .NET framework and core developing and delevering APIs.</em></p>
+                            <p><em>Passionate Individual/.NET Developer with 1+ years of experience working with .NET
+                                    framework and core developing and delevering APIs.</em></p>
                             <ul>
                                 <li>Nikoshera, MadhyapurThimi, Bhaktapur</li>
                                 <li>(+977) 9761895037</li>
@@ -184,11 +235,12 @@
                                 <li>Script and run database queries.</li>
                             </ul>
                         </div>
-                        <br/>
-                        <a class="btn btn-primary" target="_blank" href="staticfiles/Rajesh's Resume.pdf" rel="noopener noreferrer">Download My Resume</a>
-                    </div>                                            
+                        <br />
+                        <a class="btn btn-primary" target="_blank" href="staticfiles/Rajesh's Resume.pdf"
+                            rel="noopener noreferrer">Download My Resume</a>
                     </div>
                 </div>
+            </div>
 
             </div>
         </section><!-- End Resume Section -->
@@ -237,8 +289,10 @@
             <p>I consent to the processing of my personal data for the purpose of recruitment.</p>
             <div class="social-links">
                 <!-- <a href="https://twitter.com/Lakhey43135664" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-                <a href="https://www.facebook.com/razzesh.kasula.3/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.linkedin.com/in/rajesh-kasula-117a1019a/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.facebook.com/razzesh.kasula.3/" target="_blank" class="facebook"><i
+                        class="bx bxl-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/rajesh-kasula-117a1019a/" target="_blank" class="linkedin"><i
+                        class="bx bxl-linkedin"></i></a>
             </div>
 
             <div class="credits">
@@ -248,7 +302,8 @@
     </footer><!-- End Footer -->
 
     <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="vendor/purecounter/purecounter_vanilla.js"></script>
